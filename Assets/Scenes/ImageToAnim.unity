@@ -166,7 +166,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 24.13
-  orthographic: 0
+  orthographic: 1
   orthographic size: 22.76
   m_Depth: 0
   m_CullingMask:
@@ -426,11 +426,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1366, y: 768}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -449,7 +449,7 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -502,10 +502,10 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -125.82342, y: 0, z: -3.3430245}
-      - {x: -64.505875, y: 0, z: -3.3993847}
-      - {x: 58.129204, y: 0, z: -3.512105}
-      - {x: 119.44675, y: 0, z: -3.5684652}
+      - {x: -156.62741, y: 0, z: -3.3374932}
+      - {x: -87.561165, y: 0, z: -3.3952363}
+      - {x: 50.571327, y: 0, z: -3.5107222}
+      - {x: 119.63757, y: 0, z: -3.5684652}
       isClosed: 0
       space: 0
       controlMode: 3
@@ -548,7 +548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457597589}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.6, y: -10.2, z: -2.1}
+  m_LocalPosition: {x: 4.6, y: -12.89, z: -2.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1002,10 +1002,10 @@ RectTransform:
   m_Father: {fileID: 387339880}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13773336, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 270.0606, y: -68.999985}
-  m_SizeDelta: {x: -672.895, y: 37.454}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 560, y: -26}
+  m_SizeDelta: {x: -1543.895, y: -730.546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &894396947
 MonoBehaviour:
@@ -1133,10 +1133,10 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -130.1876, y: 0, z: -3.3430321}
-      - {x: -67.80806, y: 0, z: -3.3993905}
-      - {x: 56.951023, y: 0, z: -3.512107}
-      - {x: 119.33057, y: 0, z: -3.5684652}
+      - {x: -169.45425, y: 0, z: -3.3430321}
+      - {x: -97.251274, y: 0, z: -3.3993905}
+      - {x: 47.154686, y: 0, z: -3.512107}
+      - {x: 119.357666, y: 0, z: -3.5684652}
       isClosed: 0
       space: 0
       controlMode: 3
@@ -1179,7 +1179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928963199}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -5.1, y: -10.3, z: -2.1}
+  m_LocalPosition: {x: -5.1, y: -12.64, z: -2.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1219,10 +1219,10 @@ RectTransform:
   m_Father: {fileID: 387339880}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13773336, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.901, y: -140}
-  m_SizeDelta: {x: -686.179, y: 37.454}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -18, y: -25}
+  m_SizeDelta: {x: -1557.179, y: -730.546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936513772
 MonoBehaviour:
@@ -1386,7 +1386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 468, z: 19.7}
+  m_LocalPosition: {x: 0, y: 469.6, z: 19.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 387339880}
@@ -1427,10 +1427,10 @@ RectTransform:
   m_Father: {fileID: 387339880}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13773336, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13, y: -69}
-  m_SizeDelta: {x: -672.895, y: 37.454}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 282, y: -25}
+  m_SizeDelta: {x: -1543.895, y: -730.546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &969599609
 MonoBehaviour:
@@ -1554,7 +1554,7 @@ RectTransform:
   m_GameObject: {fileID: 1243182139}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 949.35236, y: 178.00357, z: 0.16481812}
+  m_LocalScale: {x: 1330.4224, y: 249.4542, z: 0.23097612}
   m_Children: []
   m_Father: {fileID: 387339880}
   m_RootOrder: 0
@@ -1782,8 +1782,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362884986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -14.4, z: 107.9}
-  m_LocalScale: {x: 19.54, y: 58.68, z: 1}
+  m_LocalPosition: {x: 0, y: -14.4, z: 115.64}
+  m_LocalScale: {x: 47.8476, y: 58.68, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1820,10 +1820,10 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -137.86423, y: 0, z: -3.3430321}
-      - {x: -73.51412, y: 0, z: -3.3993905}
-      - {x: 55.18609, y: 0, z: -3.512107}
-      - {x: 119.536194, y: 0, z: -3.5684652}
+      - {x: -184.77835, y: 0, z: -3.3430321}
+      - {x: -108.693184, y: 0, z: -3.3993905}
+      - {x: 43.47715, y: 0, z: -3.512107}
+      - {x: 119.56232, y: 0, z: -3.5684652}
       isClosed: 0
       space: 0
       controlMode: 3
@@ -1866,7 +1866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411388324}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -11.1, y: -9.9, z: -0.2}
+  m_LocalPosition: {x: -11.1, y: -12.62, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2040,10 +2040,10 @@ RectTransform:
   m_Father: {fileID: 387339880}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13773336, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 367.07617, y: -140.50003}
-  m_SizeDelta: {x: -712.268, y: 37.454}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -279, y: -25}
+  m_SizeDelta: {x: -1583.2681, y: -730.546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1537859216
 MonoBehaviour:
@@ -2173,10 +2173,10 @@ RectTransform:
   m_Father: {fileID: 387339880}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13773336, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74, y: -140}
-  m_SizeDelta: {x: -742.821, y: 37.454}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -537.99994, y: -24}
+  m_SizeDelta: {x: -1613.821, y: -730.546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1585291698
 MonoBehaviour:
@@ -2593,10 +2593,10 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -120.93422, y: 0, z: -3.3430245}
-      - {x: -60.902645, y: 0, z: -3.3993847}
-      - {x: 59.160503, y: 0, z: -3.512105}
-      - {x: 119.19208, y: 0, z: -3.5684652}
+      - {x: -149.25613, y: 0, z: -3.3430321}
+      - {x: -82.13198, y: 0, z: -3.3993905}
+      - {x: 52.116325, y: 0, z: -3.512107}
+      - {x: 119.24048, y: 0, z: -3.5684652}
       isClosed: 0
       space: 0
       controlMode: 3
@@ -2639,7 +2639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968662925}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.8, y: -10.8, z: -2.1}
+  m_LocalPosition: {x: -0.8, y: -12.9, z: -2.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2787,7 +2787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5706018888531449350}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -4.5, y: -13.4, z: -2.1}
+  m_LocalPosition: {x: -4.5, y: 4.6, z: -2.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2808,10 +2808,10 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -121.10866, y: 0, z: -3.3430245}
-      - {x: -60.989864, y: 0, z: -3.3993847}
-      - {x: 59.247723, y: 0, z: -3.512105}
-      - {x: 119.366516, y: 0, z: -3.5684652}
+      - {x: -146.01643, y: 0, z: -3.3430321}
+      - {x: -79.63324, y: 0, z: -3.3993905}
+      - {x: 53.133163, y: 0, z: -3.512107}
+      - {x: 119.51636, y: 0, z: -3.5684652}
       isClosed: 0
       space: 0
       controlMode: 3
