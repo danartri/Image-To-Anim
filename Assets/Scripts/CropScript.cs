@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 using System;
@@ -12,7 +13,6 @@ public class CropScript : MonoBehaviour
     public RawImage cropImage, originalImage, resultImage;
 
     // For saving to the _savepath
-    string _SavePath = Application.streamingAssetsPath + "/"; //Change the path here!
     int _CaptureCounter = 0;
 
     public Slider sliderHeight, sliderWidth;
@@ -50,7 +50,7 @@ public class CropScript : MonoBehaviour
         a.sizeDelta = new Vector2(sliderWidth.value, sliderHeight.value);
     }
 
-    public void Cropping()
+    public void Cropping(string folder)
     {
         Texture2D croppedTexture = new Texture2D((int)cropImage.rectTransform.rect.width, (int)cropImage.rectTransform.rect.height);
         Texture2D originalTexture = (Texture2D)originalImage.mainTexture;
@@ -59,7 +59,10 @@ public class CropScript : MonoBehaviour
         croppedTexture.Apply();
         resultImage.texture = croppedTexture;
 
-        System.IO.File.WriteAllBytes(_SavePath + _CaptureCounter.ToString() + ".png", croppedTexture.EncodeToPNG());
+        string _SavePath = Application.streamingAssetsPath + "/";
+        string path = _SavePath + folder + "/";
+
+        System.IO.File.WriteAllBytes(path + _CaptureCounter.ToString() + ".png", croppedTexture.EncodeToPNG());
         ++_CaptureCounter;
 
         Debug.Log("RESULT CROP");
